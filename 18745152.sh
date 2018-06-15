@@ -5,10 +5,10 @@ n1=( $n - 1 )
 
 for n2 in `seq 2 $n1`
 do 
-        echo ${n} 
+#       echo ${n} 
         ret=`expr $n % $n2`  
 
-        echo "ret=${ret}"
+#       echo "ret=${ret}"
 
         if [ ${ret} -eq 0 ]
                 then 
