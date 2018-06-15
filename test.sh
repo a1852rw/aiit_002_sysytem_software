@@ -20,3 +20,4 @@ else
 	echo "$1 is not equal to $2" 
 fi
 
+# まずはサンプルコードを参考にした
